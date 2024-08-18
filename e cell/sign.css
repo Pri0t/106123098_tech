@@ -1,0 +1,69 @@
+.sign{
+    display: block;
+    margin-bottom: 10%;
+}
+
+#newsletter {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#newsletter h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+#newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter-form div {
+    margin-bottom: 15px; 
+    width: 100%;
+    max-width: 400px;
+}
+
+#newsletter-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+.home-icon{
+    color:black;
+    position: absolute;
+    right: 5%;
+    z-index: 10;
+    
+}
+.home-icon:hover{
+    color: antiquewhite;
+}
+
+#newsletter-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%; 
+}
+
+#newsletter-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#newsletter-form button:hover {
+    background-color: #0056b3;
+}

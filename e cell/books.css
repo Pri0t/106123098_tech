@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.audiobooks {
+    background-image:url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+.home-icon{
+    color:black;
+    position: absolute;
+    right: 1%;
+    font-size: 1rem;
+    
+}
+.home-icon:hover{
+    color: antiquewhite;
+}
+
+.book {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 2vw; 
+    box-sizing:border-box;
+}
+
+#books{
+    border-radius: 10%;
+    width: 18vw;
+    height: 50vh;
+}
+
+.rating {
+    color: gold;
+    font-size: 20px; 
+    margin-top: 3px;
+}
+
+.rating i {
+    margin-right: 2px;
+}
+.detail{
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+    text-align: center; 
+}
+.book:hover .detail {
+    opacity: 1; }
+    @media screen and (max-width: 768px) {
+     
+        .home-icon{
+           
+            right: -100%;
+            font-size: 1rem;
+            
+        }
+        .rating {
+           
+            font-size: 15px; 
+
+        }
+        
+        .audiobooks {
+width:200vw;
+        }
+
+        
+        #books{
+            border-radius: 10%;
+            width: 40vw;
+            height: 40vh;
+        }
+        
+       
+    }
+    
+    
+    
+    
+    
